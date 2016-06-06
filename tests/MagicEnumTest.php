@@ -21,7 +21,7 @@ class MagicEnumTest extends PHPUnit_Framework_TestCase
 
         $this->assertInstanceOf(TestEnum::class, $object);
         $this->assertEquals($value, $object->getValue());
-        $this->assertEquals("SOMETHING", $object->getConstantName());
+        $this->assertEquals("SOMETHING", $object->getName());
     }
 
     /** @test */
