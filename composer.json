@@ -1,4 +1,12 @@
 {
+    "name": "brzez/php-magic-enum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "brzez",
+            "email": "pawel@brzez.com"
+        }
+    ],
     "autoload":{
         "psr-4":{
             "MagicEnum\\": "src"
