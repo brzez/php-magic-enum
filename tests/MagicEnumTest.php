@@ -27,6 +27,10 @@ class MagicEnumTest extends PHPUnit_Framework_TestCase
     /** @test */
     public function lists_constant_names()
     {
-        $this->markTestIncomplete();
+        $list = TestEnum::getConstants();
+        $this->assertEquals([
+            'SOMETHING'      => 1,
+            'SOMETHING_ELSE' => 2
+        ], $list);
     }
 }
