@@ -1,7 +1,9 @@
 <?php 
+namespace Tests;
 
-use Tests\TestEnum;
-use Tests\OtherTestEnum;
+use PHPUnit_Framework_TestCase;
+use Tests\Mocks\TestEnum;
+use Tests\Mocks\OtherTestEnum;
 
 
 class MagicEnumTest extends PHPUnit_Framework_TestCase
